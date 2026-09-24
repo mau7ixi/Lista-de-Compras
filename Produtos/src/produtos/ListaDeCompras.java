@@ -28,8 +28,7 @@ public class ListaDeCompras {
         produtos.add(p);
     }
 
-    // ARRUMADO:
-    // agora altera apenas a lista, sem afetar o estoque
+    // arrumado:
     public void remover(String nome, int quantidade) {
 
         for (int i = 0; i < produtos.size(); i++) {
