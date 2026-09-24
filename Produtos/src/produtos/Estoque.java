@@ -22,7 +22,6 @@ public class Estoque {
             if (produtoExistente.getNome().equalsIgnoreCase(p.getNome())) {
 
                 // ARRUMADO:
-                // soma quantidade ao invés de substituir
                 produtoExistente.setQuantidade(
                         produtoExistente.getQuantidade() + p.getQuantidade()
                 );
